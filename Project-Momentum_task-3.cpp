@@ -17,12 +17,12 @@ main()
       {
       	if(a>d)
       	{
-      		printf("A is MAX");
-	    }
+      	  printf("A is MAX");
+        }
 	    else
 	    {
-	    	printf("D is MAX");
-		}
+	      printf("D is MAX");
+	    }
 	  }
 	  else
 	  {
