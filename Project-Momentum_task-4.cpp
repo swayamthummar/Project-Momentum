@@ -26,10 +26,12 @@
         case 't':
             printf("Thursday");
             break;
+		    
         case 'F':
         case 'f':
             printf("Friday");
             break;
+		    
         case 'S':
         case 's':
             printf("Saturday or Sunday");
@@ -38,7 +40,7 @@
         default:
             printf("Invalid Character\n");
             
-    printf("*       *\n");
+        printf("*       *\n");
 	printf("  *   *\n");	
 	printf("    *\n");
 	printf("  *   *\n");
