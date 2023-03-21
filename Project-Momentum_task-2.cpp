@@ -1,10 +1,10 @@
 #include<stdio.h>
 main()
 {
-	int N;
+	int NU;
 	
     printf("Enter a number-> ");
-    scanf("%d",&N);
+    scanf("%d",&NU);
     
-    (N % 2 == 0)? printf("%d is Even",N) : printf("%d is Odd",N);
+    (NU % 2==0)? printf("%d is Even",NU) : printf("%d is Odd",NU);
 }
