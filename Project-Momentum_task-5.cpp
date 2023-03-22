@@ -1,7 +1,8 @@
 #include<stdio.h>
 main ()
 {
-	int unit,amount,surcharge;
+	int unit;
+	float amount,surcharg;
 	printf("enter electricity unti->");
 	scanf("%d",&unit);
 	
@@ -24,6 +25,6 @@ main ()
 	surcharge=amount * 0.20;
     amount += surcharge;
     
-    printf("Total Electricity amount is-> Rs.%d",amount);
+    printf("Total Electricity amount is-> Rs.%.2f",amount);
 		
 }
