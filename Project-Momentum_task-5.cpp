@@ -3,7 +3,7 @@ main ()
 {
 	int unit;
 	float amount,surcharge;
-	printf("enter electricity unti->");
+	printf("Enter Electricity Unti->");
 	scanf("%d",&unit);
 	
 	if(unit<=50)
@@ -23,8 +23,8 @@ main ()
     	amount=(unit-250)*1.50+220;
 	}
 	surcharge=amount * 0.20;
-   t amount += surcharge;
+    amount += surcharge;
     
-    printf("Total Electricity amount is-> Rs.%.2f",amount);
+    printf("Total Electricity Amount is-> Rs.%.2f",amount);
 		
 }
